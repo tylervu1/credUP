@@ -1,0 +1,999 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2484D2FB97AD9E87179ABF15 /* Pods_credup_credupUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755E4E8D0641DACFF9CBFFF7 /* Pods_credup_credupUITests.framework */; };
+		86CFB6117D4FBC46C135673B /* Pods_credup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FD2CBD6CCF2BCB801F4ADD /* Pods_credup.framework */; };
+		9720917C29A1CE0100DE9A3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9720917B29A1CE0100DE9A3F /* AppDelegate.swift */; };
+		9720917E29A1CE0100DE9A3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9720917D29A1CE0100DE9A3F /* SceneDelegate.swift */; };
+		9720918329A1CE0100DE9A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9720918129A1CE0100DE9A3F /* Main.storyboard */; };
+		9720918629A1CE0100DE9A3F /* credup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9720918429A1CE0100DE9A3F /* credup.xcdatamodeld */; };
+		9720918829A1CE0300DE9A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9720918729A1CE0300DE9A3F /* Assets.xcassets */; };
+		9720918B29A1CE0300DE9A3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9720918929A1CE0300DE9A3F /* LaunchScreen.storyboard */; };
+		9720919629A1CE0300DE9A3F /* credupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9720919529A1CE0300DE9A3F /* credupTests.swift */; };
+		972091A029A1CE0300DE9A3F /* credupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9720919F29A1CE0300DE9A3F /* credupUITests.swift */; };
+		972091A229A1CE0300DE9A3F /* credupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972091A129A1CE0300DE9A3F /* credupUITestsLaunchTests.swift */; };
+		972091B229A1CF2600DE9A3F /* settingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972091AF29A1CF2600DE9A3F /* settingsTableViewCell.swift */; };
+		972091B429A1CF2600DE9A3F /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972091B129A1CF2600DE9A3F /* settingsViewController.swift */; };
+		972091CD29A1D8EA00DE9A3F /* Circe-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 972091B729A1D8EA00DE9A3F /* Circe-ExtraBold.otf */; };
+		972091CE29A1D8EA00DE9A3F /* CRC35.otf in Resources */ = {isa = PBXBuildFile; fileRef = 972091B829A1D8EA00DE9A3F /* CRC35.otf */; };
+		972091CF29A1D8EA00DE9A3F /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091B929A1D8EA00DE9A3F /* Poppins-ExtraLight.ttf */; };
+		972091D029A1D8EA00DE9A3F /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091BA29A1D8EA00DE9A3F /* Poppins-ThinItalic.ttf */; };
+		972091D129A1D8EA00DE9A3F /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091BB29A1D8EA00DE9A3F /* Poppins-ExtraLightItalic.ttf */; };
+		972091D229A1D8EA00DE9A3F /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091BC29A1D8EA00DE9A3F /* Poppins-BoldItalic.ttf */; };
+		972091D329A1D8EA00DE9A3F /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091BD29A1D8EA00DE9A3F /* Poppins-Light.ttf */; };
+		972091D429A1D8EA00DE9A3F /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091BE29A1D8EA00DE9A3F /* Poppins-Medium.ttf */; };
+		972091D529A1D8EA00DE9A3F /* CRC55.otf in Resources */ = {isa = PBXBuildFile; fileRef = 972091BF29A1D8EA00DE9A3F /* CRC55.otf */; };
+		972091D629A1D8EA00DE9A3F /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091C029A1D8EA00DE9A3F /* Poppins-SemiBoldItalic.ttf */; };
+		972091D729A1D8EA00DE9A3F /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091C129A1D8EA00DE9A3F /* Poppins-ExtraBoldItalic.ttf */; };
+		972091D829A1D8EA00DE9A3F /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091C229A1D8EA00DE9A3F /* Poppins-ExtraBold.ttf */; };
+		972091D929A1D8EA00DE9A3F /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091C329A1D8EA00DE9A3F /* Poppins-BlackItalic.ttf */; };
+		972091DA29A1D8EA00DE9A3F /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091C429A1D8EA00DE9A3F /* Poppins-Regular.ttf */; };
+		972091DB29A1D8EA00DE9A3F /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091C529A1D8EA00DE9A3F /* Poppins-LightItalic.ttf */; };
+		972091DC29A1D8EA00DE9A3F /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091C629A1D8EA00DE9A3F /* Poppins-Bold.ttf */; };
+		972091DD29A1D8EA00DE9A3F /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091C729A1D8EA00DE9A3F /* Poppins-Black.ttf */; };
+		972091DE29A1D8EA00DE9A3F /* Circe-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 972091C829A1D8EA00DE9A3F /* Circe-Bold.otf */; };
+		972091DF29A1D8EA00DE9A3F /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091C929A1D8EA00DE9A3F /* Poppins-Thin.ttf */; };
+		972091E029A1D8EA00DE9A3F /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091CA29A1D8EA00DE9A3F /* Poppins-SemiBold.ttf */; };
+		972091E129A1D8EA00DE9A3F /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091CB29A1D8EA00DE9A3F /* Poppins-Italic.ttf */; };
+		972091E229A1D8EA00DE9A3F /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972091CC29A1D8EA00DE9A3F /* Poppins-MediumItalic.ttf */; };
+		972091E429A1DE8E00DE9A3F /* paymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972091E329A1DE8E00DE9A3F /* paymentsViewController.swift */; };
+		972091E629A1DEA500DE9A3F /* paymentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972091E529A1DEA500DE9A3F /* paymentsTableViewCell.swift */; };
+		972091EB29A2104300DE9A3F /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = 972091EA29A2104300DE9A3F /* Stripe */; };
+		972091ED29A2104300DE9A3F /* StripeApplePay in Frameworks */ = {isa = PBXBuildFile; productRef = 972091EC29A2104300DE9A3F /* StripeApplePay */; };
+		972091EF29A2104300DE9A3F /* StripeCardScan in Frameworks */ = {isa = PBXBuildFile; productRef = 972091EE29A2104300DE9A3F /* StripeCardScan */; };
+		972091F129A2104300DE9A3F /* StripeFinancialConnections in Frameworks */ = {isa = PBXBuildFile; productRef = 972091F029A2104300DE9A3F /* StripeFinancialConnections */; };
+		972091F329A2104300DE9A3F /* StripeIdentity in Frameworks */ = {isa = PBXBuildFile; productRef = 972091F229A2104300DE9A3F /* StripeIdentity */; };
+		972091F529A2104300DE9A3F /* StripePayments in Frameworks */ = {isa = PBXBuildFile; productRef = 972091F429A2104300DE9A3F /* StripePayments */; };
+		972091F729A2104300DE9A3F /* StripePaymentsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 972091F629A2104300DE9A3F /* StripePaymentsUI */; };
+		972091F929A2104D00DE9A3F /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 972091F829A2104D00DE9A3F /* StripePaymentSheet */; };
+		97FEC97A29A23376005D5B46 /* makePaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FEC97929A23376005D5B46 /* makePaymentViewController.swift */; };
+		C32F94AC37868AEFB3E1436D /* Pods_credupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA57C36558B881B40C423C3 /* Pods_credupTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9720919229A1CE0300DE9A3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9720917029A1CE0100DE9A3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9720917729A1CE0100DE9A3F;
+			remoteInfo = credup;
+		};
+		9720919C29A1CE0300DE9A3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9720917029A1CE0100DE9A3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9720917729A1CE0100DE9A3F;
+			remoteInfo = credup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C4F7BC730C770008F2F174 /* Pods-credup-credupUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-credup-credupUITests.release.xcconfig"; path = "Target Support Files/Pods-credup-credupUITests/Pods-credup-credupUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0B9275950F40652168225F2D /* Pods-credup-credupUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-credup-credupUITests.debug.xcconfig"; path = "Target Support Files/Pods-credup-credupUITests/Pods-credup-credupUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F9FC0B192760B3546D6E1D7 /* Pods-credupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-credupTests.debug.xcconfig"; path = "Target Support Files/Pods-credupTests/Pods-credupTests.debug.xcconfig"; sourceTree = "<group>"; };
+		755E4E8D0641DACFF9CBFFF7 /* Pods_credup_credupUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_credup_credupUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA57C36558B881B40C423C3 /* Pods_credupTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_credupTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9720917829A1CE0100DE9A3F /* credup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = credup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9720917B29A1CE0100DE9A3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9720917D29A1CE0100DE9A3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9720918229A1CE0100DE9A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9720918529A1CE0100DE9A3F /* credup.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = credup.xcdatamodel; sourceTree = "<group>"; };
+		9720918729A1CE0300DE9A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9720918A29A1CE0300DE9A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9720918C29A1CE0300DE9A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9720919129A1CE0300DE9A3F /* credupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = credupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9720919529A1CE0300DE9A3F /* credupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = credupTests.swift; sourceTree = "<group>"; };
+		9720919B29A1CE0300DE9A3F /* credupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = credupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9720919F29A1CE0300DE9A3F /* credupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = credupUITests.swift; sourceTree = "<group>"; };
+		972091A129A1CE0300DE9A3F /* credupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = credupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		972091AF29A1CF2600DE9A3F /* settingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsTableViewCell.swift; sourceTree = "<group>"; };
+		972091B129A1CF2600DE9A3F /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		972091B729A1D8EA00DE9A3F /* Circe-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circe-ExtraBold.otf"; sourceTree = "<group>"; };
+		972091B829A1D8EA00DE9A3F /* CRC35.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CRC35.otf; sourceTree = "<group>"; };
+		972091B929A1D8EA00DE9A3F /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		972091BA29A1D8EA00DE9A3F /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		972091BB29A1D8EA00DE9A3F /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		972091BC29A1D8EA00DE9A3F /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		972091BD29A1D8EA00DE9A3F /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		972091BE29A1D8EA00DE9A3F /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		972091BF29A1D8EA00DE9A3F /* CRC55.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CRC55.otf; sourceTree = "<group>"; };
+		972091C029A1D8EA00DE9A3F /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		972091C129A1D8EA00DE9A3F /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		972091C229A1D8EA00DE9A3F /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		972091C329A1D8EA00DE9A3F /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		972091C429A1D8EA00DE9A3F /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		972091C529A1D8EA00DE9A3F /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		972091C629A1D8EA00DE9A3F /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		972091C729A1D8EA00DE9A3F /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		972091C829A1D8EA00DE9A3F /* Circe-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circe-Bold.otf"; sourceTree = "<group>"; };
+		972091C929A1D8EA00DE9A3F /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		972091CA29A1D8EA00DE9A3F /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		972091CB29A1D8EA00DE9A3F /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		972091CC29A1D8EA00DE9A3F /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		972091E329A1DE8E00DE9A3F /* paymentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymentsViewController.swift; sourceTree = "<group>"; };
+		972091E529A1DEA500DE9A3F /* paymentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymentsTableViewCell.swift; sourceTree = "<group>"; };
+		97FEC97929A23376005D5B46 /* makePaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makePaymentViewController.swift; sourceTree = "<group>"; };
+		CB23C9D790E4EC8F4E063C17 /* Pods-credupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-credupTests.release.xcconfig"; path = "Target Support Files/Pods-credupTests/Pods-credupTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4FD2CBD6CCF2BCB801F4ADD /* Pods_credup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_credup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D78E69DAED09FD2EF0FBAF /* Pods-credup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-credup.release.xcconfig"; path = "Target Support Files/Pods-credup/Pods-credup.release.xcconfig"; sourceTree = "<group>"; };
+		E9455AC9EFD7F5341B500491 /* Pods-credup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-credup.debug.xcconfig"; path = "Target Support Files/Pods-credup/Pods-credup.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9720917529A1CE0100DE9A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972091F129A2104300DE9A3F /* StripeFinancialConnections in Frameworks */,
+				972091ED29A2104300DE9A3F /* StripeApplePay in Frameworks */,
+				972091F329A2104300DE9A3F /* StripeIdentity in Frameworks */,
+				972091EF29A2104300DE9A3F /* StripeCardScan in Frameworks */,
+				972091F729A2104300DE9A3F /* StripePaymentsUI in Frameworks */,
+				972091F529A2104300DE9A3F /* StripePayments in Frameworks */,
+				972091F929A2104D00DE9A3F /* StripePaymentSheet in Frameworks */,
+				972091EB29A2104300DE9A3F /* Stripe in Frameworks */,
+				86CFB6117D4FBC46C135673B /* Pods_credup.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9720918E29A1CE0300DE9A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32F94AC37868AEFB3E1436D /* Pods_credupTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9720919829A1CE0300DE9A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2484D2FB97AD9E87179ABF15 /* Pods_credup_credupUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C582CC503887CE6313D49C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4FD2CBD6CCF2BCB801F4ADD /* Pods_credup.framework */,
+				755E4E8D0641DACFF9CBFFF7 /* Pods_credup_credupUITests.framework */,
+				8AA57C36558B881B40C423C3 /* Pods_credupTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9720916F29A1CE0100DE9A3F = {
+			isa = PBXGroup;
+			children = (
+				9720917A29A1CE0100DE9A3F /* credup */,
+				9720919429A1CE0300DE9A3F /* credupTests */,
+				9720919E29A1CE0300DE9A3F /* credupUITests */,
+				9720917929A1CE0100DE9A3F /* Products */,
+				F48C64FDF0F606D1BC21CA6C /* Pods */,
+				3C582CC503887CE6313D49C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9720917929A1CE0100DE9A3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9720917829A1CE0100DE9A3F /* credup.app */,
+				9720919129A1CE0300DE9A3F /* credupTests.xctest */,
+				9720919B29A1CE0300DE9A3F /* credupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9720917A29A1CE0100DE9A3F /* credup */ = {
+			isa = PBXGroup;
+			children = (
+				9720917B29A1CE0100DE9A3F /* AppDelegate.swift */,
+				9720917D29A1CE0100DE9A3F /* SceneDelegate.swift */,
+				972091B629A1D8EA00DE9A3F /* fonts */,
+				972091B529A1CF2C00DE9A3F /* View Controllers */,
+				9720918129A1CE0100DE9A3F /* Main.storyboard */,
+				9720918729A1CE0300DE9A3F /* Assets.xcassets */,
+				9720918929A1CE0300DE9A3F /* LaunchScreen.storyboard */,
+				9720918C29A1CE0300DE9A3F /* Info.plist */,
+				9720918429A1CE0100DE9A3F /* credup.xcdatamodeld */,
+			);
+			path = credup;
+			sourceTree = "<group>";
+		};
+		9720919429A1CE0300DE9A3F /* credupTests */ = {
+			isa = PBXGroup;
+			children = (
+				9720919529A1CE0300DE9A3F /* credupTests.swift */,
+			);
+			path = credupTests;
+			sourceTree = "<group>";
+		};
+		9720919E29A1CE0300DE9A3F /* credupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9720919F29A1CE0300DE9A3F /* credupUITests.swift */,
+				972091A129A1CE0300DE9A3F /* credupUITestsLaunchTests.swift */,
+			);
+			path = credupUITests;
+			sourceTree = "<group>";
+		};
+		972091AE29A1CF2600DE9A3F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				972091B129A1CF2600DE9A3F /* settingsViewController.swift */,
+				972091AF29A1CF2600DE9A3F /* settingsTableViewCell.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		972091B529A1CF2C00DE9A3F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				972091FA29A223FB00DE9A3F /* Home Page */,
+				972091AE29A1CF2600DE9A3F /* Settings */,
+				97FEC97929A23376005D5B46 /* makePaymentViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		972091B629A1D8EA00DE9A3F /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				972091B729A1D8EA00DE9A3F /* Circe-ExtraBold.otf */,
+				972091B829A1D8EA00DE9A3F /* CRC35.otf */,
+				972091B929A1D8EA00DE9A3F /* Poppins-ExtraLight.ttf */,
+				972091BA29A1D8EA00DE9A3F /* Poppins-ThinItalic.ttf */,
+				972091BB29A1D8EA00DE9A3F /* Poppins-ExtraLightItalic.ttf */,
+				972091BC29A1D8EA00DE9A3F /* Poppins-BoldItalic.ttf */,
+				972091BD29A1D8EA00DE9A3F /* Poppins-Light.ttf */,
+				972091BE29A1D8EA00DE9A3F /* Poppins-Medium.ttf */,
+				972091BF29A1D8EA00DE9A3F /* CRC55.otf */,
+				972091C029A1D8EA00DE9A3F /* Poppins-SemiBoldItalic.ttf */,
+				972091C129A1D8EA00DE9A3F /* Poppins-ExtraBoldItalic.ttf */,
+				972091C229A1D8EA00DE9A3F /* Poppins-ExtraBold.ttf */,
+				972091C329A1D8EA00DE9A3F /* Poppins-BlackItalic.ttf */,
+				972091C429A1D8EA00DE9A3F /* Poppins-Regular.ttf */,
+				972091C529A1D8EA00DE9A3F /* Poppins-LightItalic.ttf */,
+				972091C629A1D8EA00DE9A3F /* Poppins-Bold.ttf */,
+				972091C729A1D8EA00DE9A3F /* Poppins-Black.ttf */,
+				972091C829A1D8EA00DE9A3F /* Circe-Bold.otf */,
+				972091C929A1D8EA00DE9A3F /* Poppins-Thin.ttf */,
+				972091CA29A1D8EA00DE9A3F /* Poppins-SemiBold.ttf */,
+				972091CB29A1D8EA00DE9A3F /* Poppins-Italic.ttf */,
+				972091CC29A1D8EA00DE9A3F /* Poppins-MediumItalic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		972091FA29A223FB00DE9A3F /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				972091E329A1DE8E00DE9A3F /* paymentsViewController.swift */,
+				972091E529A1DEA500DE9A3F /* paymentsTableViewCell.swift */,
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+		F48C64FDF0F606D1BC21CA6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9455AC9EFD7F5341B500491 /* Pods-credup.debug.xcconfig */,
+				E6D78E69DAED09FD2EF0FBAF /* Pods-credup.release.xcconfig */,
+				0B9275950F40652168225F2D /* Pods-credup-credupUITests.debug.xcconfig */,
+				02C4F7BC730C770008F2F174 /* Pods-credup-credupUITests.release.xcconfig */,
+				3F9FC0B192760B3546D6E1D7 /* Pods-credupTests.debug.xcconfig */,
+				CB23C9D790E4EC8F4E063C17 /* Pods-credupTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9720917729A1CE0100DE9A3F /* credup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972091A529A1CE0300DE9A3F /* Build configuration list for PBXNativeTarget "credup" */;
+			buildPhases = (
+				936E0A8E9774D6CA0CDF0EE9 /* [CP] Check Pods Manifest.lock */,
+				9720917429A1CE0100DE9A3F /* Sources */,
+				9720917529A1CE0100DE9A3F /* Frameworks */,
+				9720917629A1CE0100DE9A3F /* Resources */,
+				D412C8C348C2FD2A38F82F7E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = credup;
+			packageProductDependencies = (
+				972091EA29A2104300DE9A3F /* Stripe */,
+				972091EC29A2104300DE9A3F /* StripeApplePay */,
+				972091EE29A2104300DE9A3F /* StripeCardScan */,
+				972091F029A2104300DE9A3F /* StripeFinancialConnections */,
+				972091F229A2104300DE9A3F /* StripeIdentity */,
+				972091F429A2104300DE9A3F /* StripePayments */,
+				972091F629A2104300DE9A3F /* StripePaymentsUI */,
+				972091F829A2104D00DE9A3F /* StripePaymentSheet */,
+			);
+			productName = credup;
+			productReference = 9720917829A1CE0100DE9A3F /* credup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9720919029A1CE0300DE9A3F /* credupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972091A829A1CE0300DE9A3F /* Build configuration list for PBXNativeTarget "credupTests" */;
+			buildPhases = (
+				7F1A052D927764398F50AFC8 /* [CP] Check Pods Manifest.lock */,
+				9720918D29A1CE0300DE9A3F /* Sources */,
+				9720918E29A1CE0300DE9A3F /* Frameworks */,
+				9720918F29A1CE0300DE9A3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9720919329A1CE0300DE9A3F /* PBXTargetDependency */,
+			);
+			name = credupTests;
+			productName = credupTests;
+			productReference = 9720919129A1CE0300DE9A3F /* credupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9720919A29A1CE0300DE9A3F /* credupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972091AB29A1CE0300DE9A3F /* Build configuration list for PBXNativeTarget "credupUITests" */;
+			buildPhases = (
+				E1B68A243E607B056407D980 /* [CP] Check Pods Manifest.lock */,
+				9720919729A1CE0300DE9A3F /* Sources */,
+				9720919829A1CE0300DE9A3F /* Frameworks */,
+				9720919929A1CE0300DE9A3F /* Resources */,
+				BA3319E4AD6D14C1844A6592 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9720919D29A1CE0300DE9A3F /* PBXTargetDependency */,
+			);
+			name = credupUITests;
+			productName = credupUITests;
+			productReference = 9720919B29A1CE0300DE9A3F /* credupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9720917029A1CE0100DE9A3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9720917729A1CE0100DE9A3F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9720919029A1CE0300DE9A3F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9720917729A1CE0100DE9A3F;
+					};
+					9720919A29A1CE0300DE9A3F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9720917729A1CE0100DE9A3F;
+					};
+				};
+			};
+			buildConfigurationList = 9720917329A1CE0100DE9A3F /* Build configuration list for PBXProject "credup" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9720916F29A1CE0100DE9A3F;
+			packageReferences = (
+				972091E729A20EC600DE9A3F /* XCRemoteSwiftPackageReference "stripe-ios-spm" */,
+			);
+			productRefGroup = 9720917929A1CE0100DE9A3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9720917729A1CE0100DE9A3F /* credup */,
+				9720919029A1CE0300DE9A3F /* credupTests */,
+				9720919A29A1CE0300DE9A3F /* credupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9720917629A1CE0100DE9A3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972091D229A1D8EA00DE9A3F /* Poppins-BoldItalic.ttf in Resources */,
+				972091D829A1D8EA00DE9A3F /* Poppins-ExtraBold.ttf in Resources */,
+				972091D329A1D8EA00DE9A3F /* Poppins-Light.ttf in Resources */,
+				972091D529A1D8EA00DE9A3F /* CRC55.otf in Resources */,
+				972091DD29A1D8EA00DE9A3F /* Poppins-Black.ttf in Resources */,
+				972091D629A1D8EA00DE9A3F /* Poppins-SemiBoldItalic.ttf in Resources */,
+				972091DA29A1D8EA00DE9A3F /* Poppins-Regular.ttf in Resources */,
+				972091DC29A1D8EA00DE9A3F /* Poppins-Bold.ttf in Resources */,
+				972091D429A1D8EA00DE9A3F /* Poppins-Medium.ttf in Resources */,
+				972091E229A1D8EA00DE9A3F /* Poppins-MediumItalic.ttf in Resources */,
+				972091DF29A1D8EA00DE9A3F /* Poppins-Thin.ttf in Resources */,
+				972091DB29A1D8EA00DE9A3F /* Poppins-LightItalic.ttf in Resources */,
+				972091D129A1D8EA00DE9A3F /* Poppins-ExtraLightItalic.ttf in Resources */,
+				972091CF29A1D8EA00DE9A3F /* Poppins-ExtraLight.ttf in Resources */,
+				9720918B29A1CE0300DE9A3F /* LaunchScreen.storyboard in Resources */,
+				9720918829A1CE0300DE9A3F /* Assets.xcassets in Resources */,
+				972091DE29A1D8EA00DE9A3F /* Circe-Bold.otf in Resources */,
+				972091CD29A1D8EA00DE9A3F /* Circe-ExtraBold.otf in Resources */,
+				972091D729A1D8EA00DE9A3F /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				972091E129A1D8EA00DE9A3F /* Poppins-Italic.ttf in Resources */,
+				972091D929A1D8EA00DE9A3F /* Poppins-BlackItalic.ttf in Resources */,
+				972091CE29A1D8EA00DE9A3F /* CRC35.otf in Resources */,
+				972091D029A1D8EA00DE9A3F /* Poppins-ThinItalic.ttf in Resources */,
+				972091E029A1D8EA00DE9A3F /* Poppins-SemiBold.ttf in Resources */,
+				9720918329A1CE0100DE9A3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9720918F29A1CE0300DE9A3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9720919929A1CE0300DE9A3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F1A052D927764398F50AFC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-credupTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		936E0A8E9774D6CA0CDF0EE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-credup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA3319E4AD6D14C1844A6592 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-credup-credupUITests/Pods-credup-credupUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-credup-credupUITests/Pods-credup-credupUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-credup-credupUITests/Pods-credup-credupUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D412C8C348C2FD2A38F82F7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-credup/Pods-credup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-credup/Pods-credup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-credup/Pods-credup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1B68A243E607B056407D980 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-credup-credupUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9720917429A1CE0100DE9A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972091E429A1DE8E00DE9A3F /* paymentsViewController.swift in Sources */,
+				972091E629A1DEA500DE9A3F /* paymentsTableViewCell.swift in Sources */,
+				9720917C29A1CE0100DE9A3F /* AppDelegate.swift in Sources */,
+				9720918629A1CE0100DE9A3F /* credup.xcdatamodeld in Sources */,
+				9720917E29A1CE0100DE9A3F /* SceneDelegate.swift in Sources */,
+				97FEC97A29A23376005D5B46 /* makePaymentViewController.swift in Sources */,
+				972091B229A1CF2600DE9A3F /* settingsTableViewCell.swift in Sources */,
+				972091B429A1CF2600DE9A3F /* settingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9720918D29A1CE0300DE9A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9720919629A1CE0300DE9A3F /* credupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9720919729A1CE0300DE9A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972091A029A1CE0300DE9A3F /* credupUITests.swift in Sources */,
+				972091A229A1CE0300DE9A3F /* credupUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9720919329A1CE0300DE9A3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9720917729A1CE0100DE9A3F /* credup */;
+			targetProxy = 9720919229A1CE0300DE9A3F /* PBXContainerItemProxy */;
+		};
+		9720919D29A1CE0300DE9A3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9720917729A1CE0100DE9A3F /* credup */;
+			targetProxy = 9720919C29A1CE0300DE9A3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9720918129A1CE0100DE9A3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9720918229A1CE0100DE9A3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9720918929A1CE0300DE9A3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9720918A29A1CE0300DE9A3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		972091A329A1CE0300DE9A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		972091A429A1CE0300DE9A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		972091A629A1CE0300DE9A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9455AC9EFD7F5341B500491 /* Pods-credup.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AN7P4KE6GH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = credup/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = credUP;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reidapps.credup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		972091A729A1CE0300DE9A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D78E69DAED09FD2EF0FBAF /* Pods-credup.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AN7P4KE6GH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = credup/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = credUP;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reidapps.credup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		972091A929A1CE0300DE9A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F9FC0B192760B3546D6E1D7 /* Pods-credupTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AN7P4KE6GH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reidapps.credupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/credup.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/credup";
+			};
+			name = Debug;
+		};
+		972091AA29A1CE0300DE9A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB23C9D790E4EC8F4E063C17 /* Pods-credupTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AN7P4KE6GH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reidapps.credupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/credup.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/credup";
+			};
+			name = Release;
+		};
+		972091AC29A1CE0300DE9A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9275950F40652168225F2D /* Pods-credup-credupUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AN7P4KE6GH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reidapps.credupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = credup;
+			};
+			name = Debug;
+		};
+		972091AD29A1CE0300DE9A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C4F7BC730C770008F2F174 /* Pods-credup-credupUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AN7P4KE6GH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reidapps.credupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = credup;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9720917329A1CE0100DE9A3F /* Build configuration list for PBXProject "credup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972091A329A1CE0300DE9A3F /* Debug */,
+				972091A429A1CE0300DE9A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		972091A529A1CE0300DE9A3F /* Build configuration list for PBXNativeTarget "credup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972091A629A1CE0300DE9A3F /* Debug */,
+				972091A729A1CE0300DE9A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		972091A829A1CE0300DE9A3F /* Build configuration list for PBXNativeTarget "credupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972091A929A1CE0300DE9A3F /* Debug */,
+				972091AA29A1CE0300DE9A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		972091AB29A1CE0300DE9A3F /* Build configuration list for PBXNativeTarget "credupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972091AC29A1CE0300DE9A3F /* Debug */,
+				972091AD29A1CE0300DE9A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		972091E729A20EC600DE9A3F /* XCRemoteSwiftPackageReference "stripe-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 23.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		972091EA29A2104300DE9A3F /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 972091E729A20EC600DE9A3F /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = Stripe;
+		};
+		972091EC29A2104300DE9A3F /* StripeApplePay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 972091E729A20EC600DE9A3F /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeApplePay;
+		};
+		972091EE29A2104300DE9A3F /* StripeCardScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 972091E729A20EC600DE9A3F /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeCardScan;
+		};
+		972091F029A2104300DE9A3F /* StripeFinancialConnections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 972091E729A20EC600DE9A3F /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeFinancialConnections;
+		};
+		972091F229A2104300DE9A3F /* StripeIdentity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 972091E729A20EC600DE9A3F /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeIdentity;
+		};
+		972091F429A2104300DE9A3F /* StripePayments */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 972091E729A20EC600DE9A3F /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePayments;
+		};
+		972091F629A2104300DE9A3F /* StripePaymentsUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 972091E729A20EC600DE9A3F /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePaymentsUI;
+		};
+		972091F829A2104D00DE9A3F /* StripePaymentSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 972091E729A20EC600DE9A3F /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePaymentSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		9720918429A1CE0100DE9A3F /* credup.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9720918529A1CE0100DE9A3F /* credup.xcdatamodel */,
+			);
+			currentVersion = 9720918529A1CE0100DE9A3F /* credup.xcdatamodel */;
+			path = credup.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9720917029A1CE0100DE9A3F /* Project object */;
+}
